@@ -1,0 +1,590 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    box-sizing: 0;
+}
+h3{
+    box-sizing: 0;
+    margin:0;
+    padding:0;
+    text-align: center;
+}
+article {
+    background-color: #ffffff;
+    border: none; 
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.suporte h1,h2{
+    text-align: center;
+}
+.apoie {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: left;
+  }
+  section .info{ /* imagem do infrografico */
+    display:flex;
+    text-align:center;
+    width: 0%;
+    margin-right: 20px;
+}
+section p .info{
+    color:green;
+    width: 60%;
+}
+section h1 .info{
+    text-align: center;
+}
+ 
+section.info {
+    text-align: center;
+}
+ 
+section.info .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+ 
+section.info img {
+    width: 30%;
+    height: auto;
+}
+section.info h1 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+ 
+section.info p {
+    font-size: 1.5em;
+    color: #333;
+}
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh; 
+    margin: 0px;
+    padding: 0 20px; 
+}
+  form h1 {
+    color: #1d27ac;
+    margin-bottom: 10px;
+}
+ 
+form p {
+    color: #333;
+    margin-bottom: 20px;
+}
+ 
+form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+ 
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+ 
+form button {
+    background-color: #1d27ac;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+ 
+form button:hover {
+    background-color: #15418a;
+}
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;      
+    background-color: #000000;
+    color: white;              
+    border: none;              
+    border-radius: 5px;        
+    cursor: pointer;          
+    font-size: 16px;          
+}
+.apoie h1 {
+    text-align: start;
+    color: #000000;
+    margin-bottom: 20px;
+  }
+ 
+  .apoie ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    line-height: 1.6;
+  }
+ 
+  .apoie p {
+    margin-top: 20px;
+    line-height: 1.6;
+  }
+ 
+  .pix-img img {
+    display: block;
+    margin: 20px auto;
+    max-width: 50%;
+    height: auto;
+  }
+ 
+  .boleto-img img {
+    display: block;
+    margin: 20px auto;
+    max-width: 30%;
+    height: auto;
+  }
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+section.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+table, th, td {
+    border: 1px solid #ddd;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: #333;
+    color: #fff;
+}
+header{
+    box-sizing: 0;
+    font-family: "Jaro", sans-serif;
+    text-align: center;
+}
+
+header .favela{
+    max-width: 100%;
+    width: 1600px;
+    height:500px;
+    box-sizing: 0;
+    opacity: 0.7;
+    position: relative;
+}
+
+nav{
+    background-color: #1d27ac;
+    padding:0;
+    margin:0;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    list-style: none;
+    background-color: #333;
+}
+ 
+nav ul li {
+    margin: 0 10px;
+}
+ 
+nav ul li img.logo {
+    width: 100px;
+    height: auto;
+}
+ 
+nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px 15px;
+    display: inline-block;
+}
+ 
+nav ul li a:hover {
+    color: rgb(154, 12, 12);
+}
+
+section{
+    align-items: center; 
+}
+.reibloco{
+background-color: rgb(246, 246, 246);
+flex-direction: column;
+}
+
+.bloco1{
+    background: white;
+    margin:20px;
+    padding:30px;
+    display: flex;       
+    justify-content: flex-start; 
+    align-items: center; 
+    gap: 20px;  
+   
+}
+.bloco2{
+    background: white;
+    margin:20px;
+    padding:30px;
+    display: flex;       
+    justify-content: flex-end; 
+    align-items: center; 
+    gap: 20px;  
+    order:2;      
+    
+}
+.bloco3{
+    background: white;
+    margin:20px;
+    padding:30px;
+    display: flex;       
+    justify-content: flex-start; 
+    align-items: center; 
+    gap: 20px;  
+}
+.bloco4{
+    background: white;
+    margin:20px;
+    padding:30px;
+    display: flex;       
+    justify-content: flex-start; 
+    align-items: center; 
+    gap: 20px;  
+}
+.bloco5{
+    background: white;
+    margin:20px;
+    padding:30px;
+    display: flex;       
+    justify-content: flex-start; 
+    align-items: center; 
+    gap: 20px;  
+   
+}
+.bloco6{
+    background: white;
+    margin:20px;
+    padding:30px;
+    display: flex;       
+    justify-content: flex-start; 
+    align-items: center; 
+    gap: 20px;
+    order:2;
+}
+.bloco7{
+    background: white;
+    margin:20px;
+    padding:30px;
+    display: flex;       
+    justify-content: flex-start; 
+    align-items: center; 
+    gap: 20px;  
+}
+section .funk{
+    width:150px;
+    border-radius: 150px;
+    align-items: center;
+}
+section .micheal{
+    order:1;
+    border-radius: 20px;
+}
+section .jgt{
+    width: 250px;
+    border: 1px solid black;
+}
+section .cop{
+    border-radius: 20px;
+    width:300px;
+    border: 1px solid black;
+}
+section .z{
+    border-radius: 20px;
+    order:1;
+    width:350px;
+    justify-content: flex-start;
+}
+section .raca{
+    width:1000px;
+    border-radius: 20px;
+    list-style: none;
+}
+
+section .info{
+    display:flex;
+    text-align:center;
+    width: 0%; 
+    margin-right: 20px;
+}
+section p .info{
+    color:green;
+    width: 60%;
+}
+section h1 .info{
+    text-align: center;
+}
+
+footer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+    background-color: #333;
+    color:white;
+    text-align: center;
+    font-size: 1.0em;
+}
+footer img{
+    width:100px;
+    display: flex;
+    justify-content: flex-end; 
+    align-items: flex-start; 
+}
+footer img .brazil{
+    width:30px;
+    display: flex;
+    justify-content: flex-end; 
+    align-items: flex-end; 
+
+}
+.con-1 {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+ 
+  .con-1 img {
+    max-width: 60%;
+    border-radius: 20px;
+    flex: 1;
+    width: 300px;
+  }
+ 
+  .con-1 p {
+    flex: 2;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #333;
+  }
+
+  .con-2 {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+ 
+  .con-2 img {
+    max-width: 60%;
+    border-radius: 20px;
+    flex: 1;
+    width: 300px;
+  }
+ 
+  .con-2 p {
+    flex: 2;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #333;
+  }
+ 
+  .con-1, .con-2, .con-3, .con-4 {
+    background: rgb(255, 255, 255);
+    margin:20px;
+    padding:30px;
+    display: flex;      
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    order:1;
+}
+.con-1, .con-2 p, .con-3, .con-4 p{
+    order:3;
+}
+.time p{
+    text-align: center;
+}
+section .jgt1{
+    order:2;
+    width:500px;
+    border: 1px solid rgb(255, 255, 255);
+}
+ 
+section .jgt2{
+    order:2;
+    width:350px;
+    border: 1px solid rgb(255, 255, 255);
+}
+  @media (max-width: 768px) {
+    .con-1 {
+      flex-direction: column;
+      text-align: center;
+    }
+ 
+    .con-1 img {
+      margin: 0 auto;
+    }
+  }
+ 
+@media (max-width: 600px)  {
+    section .micheal{
+        float:right;
+        width:300px;
+    }
+}
+
+/* Responsividade */
+@media (max-width: 1200px) {
+    .apoie, section.container {
+        padding: 15px;
+    }
+
+    section .raca{
+        width:300px;
+        border-radius: 20px;
+        list-style: none;
+    }
+
+    .bloco1, .bloco2, .bloco3, .bloco4, .bloco5, .bloco6, .bloco7 {
+        flex-direction: column;
+        gap: 10px;
+    }
+    section.info img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    .con-1 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .con-1 img {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .con-2 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .con-2 img {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    footer {
+        font-size: 0.9em;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 600px) {
+    header .favela {
+        height: 300px;
+    }
+
+    form input[type="text"], 
+    form input[type="email"], 
+    form input[type="tel"], 
+    form textarea {
+        font-size: 14px;
+    }
+
+    form button {
+        font-size: 14px;
+    }
+
+    section .micheal, section .cop, section .z {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    footer {
+        font-size: 0.8em;
+    }
+
+    .pix-img img, .boleto-img img {
+        max-width: 70%;
+    }
+   
+}
+/* Media query para telas menores (exemplo: largura menor que 768px) */
+@media (max-width: 600px) {
+    section .info {
+        flex-direction: column; /* Ajusta o layout para empilhar o conteúdo */
+        width: 50%; /* Expande para ocupar a largura total */
+        margin-right: 0; /* Remove a margem lateral */
+    }
+
+    section .info img {
+        width: 50%; /* Ajusta o tamanho da imagem para ser mais responsivo */
+        margin: auto; /* Centraliza a imagem */
+    }
+} 
